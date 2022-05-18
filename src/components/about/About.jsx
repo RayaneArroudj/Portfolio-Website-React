@@ -40,11 +40,12 @@ const About = () => {
               </small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            iure beatae ducimus laboriosam dolores? Earum vel magnam iusto dolor
-            porro inventore tempora. Perspiciatis nam sint exercitationem omnis
-            adipisci numquam placeat?
+          <p className="text">
+            Actuellement en pleine formation dans le développement web, je suis
+            à la recherche d'une entreprise pouvant m’accueillir en alternance
+            pour une durée d'un an (à partir de septembre 2022). J'aimerai
+            pouvoir mettre à profit mes savoirs et compétences acquis ces
+            derniers mois et continuer à former au métier de développeur.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
