@@ -10,6 +10,8 @@ import { IoLogoNodejs } from 'react-icons/io';
 import { SiMysql } from 'react-icons/si';
 import { FiFigma } from 'react-icons/fi';
 import { SiTailwindcss } from 'react-icons/si';
+import { DiGit } from 'react-icons/di';
+import { BsGithub } from 'react-icons/bs';
 
 const Experience = () => {
   return (
@@ -173,6 +175,26 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React-Icons</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <DiGit className="experience__details-icons" />
+              <div>
+                <h4>Git</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <BsGithub className="experience__details-icons" />
+              <div>
+                <h4>GitHub</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>AGILE Method (SCRUM)</h4>
               </div>
             </article>
           </div>
