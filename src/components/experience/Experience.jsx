@@ -12,6 +12,7 @@ import { FiFigma } from 'react-icons/fi';
 import { SiTailwindcss } from 'react-icons/si';
 import { DiGit } from 'react-icons/di';
 import { BsGithub } from 'react-icons/bs';
+import { SiSwiper } from 'react-icons/si';
 
 const Experience = () => {
   return (
@@ -195,6 +196,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>AGILE Method (SCRUM)</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <SiSwiper />
+              <div>
+                <h4>Swiper JS</h4>
               </div>
             </article>
           </div>
