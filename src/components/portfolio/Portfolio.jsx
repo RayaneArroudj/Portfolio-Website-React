@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import youme from '../../assets/youme.png';
-import portfolio2 from '../../assets/portfolio2.jpg';
+import nanar from '../../assets/nanar.png';
 import portfolio3 from '../../assets/portfolio3.jpg';
 import portfolio4 from '../../assets/portfolio4.jpg';
 import portfolio5 from '../../assets/portfolio5.png';
@@ -17,10 +17,10 @@ const data = [
   },
   {
     id: 2,
-    image: portfolio2,
-    title: 'Project Title',
-    github: 'https://github.com',
-    demo: 'https://github.com',
+    image: nanar,
+    title: 'FILMSclaqués.com',
+    github: 'https://github.com/RayaneArroudj/lyon-react-mars22-p2g2',
+    demo: 'https://films-claques.vercel.app/',
   },
   {
     id: 3,
@@ -66,7 +66,12 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn">
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     GitHub
                   </a>
                   <a
